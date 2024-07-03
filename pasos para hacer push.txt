@@ -1,0 +1,14 @@
+1. entrar al directorio o carpeta cd e iniciar el repositorio git con el comando git init
+2. conectar con nuestro repositorio remoto con el comando:
+   -git config user.name "winder96"
+   -git config user.email "winderfa.96@hotmail.com"
+3. comunicar repositorio local con el remoto mediante el siguiente comando
+   -git remote add origin "https://github.com/winder96/Template_oltv16_migracion.git" url de nuestro repositorio remoto
+
+4. con el comando git status podemos ver el estado del git para ver los archivos que mo han sido commit
+
+5. con el comando git add docs/ para agregar de manera provional nuestro archico al repositorio
+
+6. con el comando git commit -m "commit1_extendenvlan" guardamos los archivo al repositorio remoto
+
+7. con el comando git push -u origin para pasar el archivo a nuestro repositorio remoto.
